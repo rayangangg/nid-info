@@ -39,37 +39,37 @@ def clear():
 
 # ============ FUNNY FAKE DATA ============
 funny_names = [
-    "মোজোর আলী (অব.)", "চান মিয়া", "গোপাল সিংহের চাচাতো ভাই",
-    "হাসুর দাদু", "রহিম সেতুর মালিক (ভুয়া)", "ডন মুন্না বাহিনীর চায়ের বয়",
-    "বিশ্বনাথের টুকু", "শাহজাহান মামা (রিকশা চালক সমিতি)"
+    "Mojor Ali (Retd.)", "Chan Mia", "Gopal Singh's Cousin",
+    "Hasu's Grandpa", "Rahim Setu Owner (Fake)", "Don Munna Bahini's Tea Boy",
+    "Bishwanath's Tuku", "Shahjan Mama (Rickshaw Puller Union)"
 ]
 
 funny_nids = [
-    "১৯৯৪-গরু-০৭৩৩", "০০০০-নাং-০০০১", "আদমের সময়ের কার্ড",
-    "NID খুঁজতে খুঁজতে হারিয়ে গেছে", "৫৫৫-পাগলা-৪২০",
-    "ভর্তি হইনাই, খালি জায়গা"
+    "1994-GORU-0733", "0000-PAGLA-0001", "Adam's Era Card",
+    "NID got lost while searching", "555-PAGLA-420",
+    "Never registered, empty space"
 ]
 
 funny_locations = [
-    "খালেদার চাচার ধোপার দোকানের ঠিক পাশে, বাঁ হাতে গেলে বটগাছ",
-    "ঢাকা ১০০০+ (ইন্টারনেটে দেখছি মিলে গেছে!)",
-    "শেরেবাংলা স্টেডিয়ামের লেট্রিন নং ৩",
-    "তোমার পাশের বাসার ছাদে, গোলাপ ফুলের টবের আড়ালে 👀",
-    "গুগল ম্যাপস এখন চা খেতে গেছে"
+    "Next to Khalid's uncle's laundry shop, left at the banyan tree",
+    "Dhaka 1000+ (checked on internet, it matched!)",
+    "Sher-e-Bangla Stadium Toilet No. 3",
+    "On the roof next to your house, behind the rose pot 👀",
+    "Google Maps went out for tea"
 ]
 
 funny_carriers = [
-    "গ্রামীণ বড়ভাই", "বাংলালিংক (বাংলা না, লিংক আছে)",
-    "রবি ভাইয়ের টাওয়ার ভাড়া বাকি", "টেলিটক - সিগন্যাল আজকাল ছুটিতে",
-    "সিগন্যাল: ৪ বার (বার টিপার লোক বাদে)"
+    "Grameen Boro-Bhai", "BanglaLink (No Bangla, only Link)",
+    "Robi Bhai's Tower (rent unpaid)", "Teletalk - Signal is on vacation",
+    "Signal: 4 bars (excluding tip-wallas)"
 ]
 
 funny_extra = [
-    "🛰️ স্যাটেলাইট কানেকশন: চাঁদ থেকে 🌕 (উঠতে ৩ টাকা, নামতে ফ্রি)",
-    "📡 GPS লক করা হয়েছে... উঁহু, লক হয়নাই, তালা হারিয়ে গেছে",
-    "🕵️ আইএসআই, সিআইএ, ফেডেরাল ব্যুরো সবাই মিশে গেছে ভিডিও কলে",
-    "🔋 ট্র্যাকিং মেশিনের ব্যাটারি: ১% (চার্জার ধার দাও)",
-    "🐄 গরুর পায়ের ছাপ অনুযায়ী ট্র্যাকিং: সফল!"
+    "🛰️ Satellite connection: From the Moon 🌕 (3 taka up, free down)",
+    "📡 GPS locked... nah, lock broke, key lost",
+    "🕵️ ISI, CIA, FBI all joined the video call",
+    "🔋 Tracking machine battery: 1% (lend me a charger)",
+    "🐄 Tracking by cow footprints: SUCCESS!"
 ]
 
 # ============ MAIN ============
@@ -77,18 +77,18 @@ def main():
     clear()
     print(C.GREEN + C.BOLD + BANNER + C.RESET)
 
-    slow_line("[*] সুপার সিক্রেট গোপন স্পাই সিস্টেম লোড হচ্ছে...", 0.05, C.MAGENTA)
-    slow_line("[*] হ্যাকার মোড চালু... [███░░░░░░░] ৩০%", 0.03, C.YELLOW)
-    slow_line("[*] চা খেয়ে নিচ্ছি... [██████████] ১০০% ✅", 0.03, C.GREEN)
+    slow_line("[*] Loading super secret spy system...", 0.05, C.MAGENTA)
+    slow_line("[*] Hacker mode ON... [███░░░░░░░] 30%", 0.03, C.YELLOW)
+    slow_line("[*] Having tea... [██████████] 100% DONE ✅", 0.03, C.GREEN)
     print()
 
-    phone = input(C.BOLD + C.CYAN + "📞 আপনার মোবাইল নম্বর দিন (যেমন: +88017xxxx): " + C.RESET).strip()
+    phone = input(C.BOLD + C.CYAN + "📞 Enter mobile number (e.g: +88017xxxx): " + C.RESET).strip()
 
     if not phone:
-        phone = "+88017চাচা-মিয়া"
+        phone = "+88017CHAN-MIA"
 
     print()
-    slow_line("[*] স্যাটেলাইটে সিগন্যাল পাঠানো হচ্ছে...", 0.06, C.MAGENTA)
+    slow_line("[*] Sending signal to satellite...", 0.06, C.MAGENTA)
     for dot in ["...", "..", "."]:
         sys.stdout.write(dot)
         sys.stdout.flush()
@@ -96,22 +96,22 @@ def main():
     print("\n")
 
     print(C.RED + C.BOLD + "╔══════════════════════════════════════════════╗")
-    print("║     🎉 ট্র্যাকিং ১০০% সফল (নিশ্চিত, বিশ্বাস   ║")
-    print("║     করবেন না তবেও চলবে) 🎉                  ║")
+    print("║   🎉 TRACKING 100% SUCCESSFUL (trust me,     ║")
+    print("║   or don't, works either way) 🎉             ║")
     print("╚══════════════════════════════════════════════╝" + C.RESET)
     print()
 
     report = [
-        ("📱 ফোন নাম্বার      : ", phone),
-        ("👤 নাম              : ", random.choice(funny_names)),
-        ("🆔 NID              : ", random.choice(funny_nids)),
-        ("📍 লোকেশন           : ", random.choice(funny_locations)),
-        ("📶 অপারেটর          : ", random.choice(funny_carriers)),
-        ("⭐ টাইমজোন          : ", "বাংলাদেশ সময় (চায়ের পরের ঘড়া অনুযায়ী)"),
-        ("🌍 দেশ              : ", "বাংলাদেশ (পৃথিবী, সৌরজগত, মিল্কিওয়ে)"),
-        ("🗺️ Google Maps      : ", "লিংক পাঠালাম, কাউকে বলবেন না 😏 (লিংকটা আসলে ছিল না)"),
-        ("⚡ স্পিড             : ", "০.০০০০০০১ সেকেন্ড (বিশ্বরেকর্ড!)"),
-        ("🕒 সময়              : ", time.strftime("%Y-%m-%d %H:%M:%S")),
+        ("📱 Phone Number    : ", phone),
+        ("👤 Name            : ", random.choice(funny_names)),
+        ("🆔 NID             : ", random.choice(funny_nids)),
+        ("📍 Location        : ", random.choice(funny_locations)),
+        ("📶 Operator        : ", random.choice(funny_carriers)),
+        ("⭐ Timezone        : ", "Bangladesh time (post-tea clock standard)"),
+        ("🌍 Country         : ", "Bangladesh (Earth, Solar System, Milky Way)"),
+        ("🗺️ Google Maps     : ", "Link sent, don't tell anyone 😏 (there was no link)"),
+        ("⚡ Speed           : ", "0.0000001 seconds (world record!)"),
+        ("🕒 Time            : ", time.strftime("%Y-%m-%d %H:%M:%S")),
     ]
 
     for label, value in report:
@@ -119,17 +119,17 @@ def main():
         time.sleep(0.15)
 
     print()
-    slow_line("➕ বোনাস তথ্য:", 0.04, C.GREEN)
+    slow_line("➕ Bonus info:", 0.04, C.GREEN)
     for _ in range(3):
         slow_line("  " + random.choice(funny_extra), 0.025, C.YELLOW)
 
     print()
-    print(C.BOLD + C.RED + "⚠️  সতর্কতা: এই রিপোর্টের একটা শব্দও সত্যি না।" + C.RESET)
-    print(C.BOLD + C.YELLOW + "😂 এটা শুধু মজা/প্র্যাংকের জন্য। কারো সাথে ঠকানোর জন্য না!" + C.RESET)
-    print(C.BOLD + C.GREEN + "বন্ধুকে দেখিয়ে হাসুন, স্ক্রিনশট নিন, শেষ! 🤣" + C.RESET)
+    print(C.BOLD + C.RED + "⚠️  WARNING: Not a single word in this report is true." + C.RESET)
+    print(C.BOLD + C.YELLOW + "😂 For fun/prank only. Not for scamming anyone!" + C.RESET)
+    print(C.BOLD + C.GREEN + "Show your friends, take a screenshot, done! 🤣" + C.RESET)
 
 if __name__ == "__main__":
     try:
         main()
     except KeyboardInterrupt:
-        print("\n" + C.YELLOW + "[!] ট্র্যাকিং বাতিল... কারণ চা ঠান্ডা হয়ে গেছে ☕" + C.RESET)
+        print("\n" + C.YELLOW + "[!] Tracking cancelled... the tea got cold ☕" + C.RESET)
